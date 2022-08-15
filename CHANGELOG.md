@@ -2,6 +2,6 @@
 
 All notable changes to the "pickdate" extension will be documented in this file.
 
-## v1.0.1
+## v1.0.3
 
-- Initial release
+- Initial public release
