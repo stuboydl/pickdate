@@ -6,9 +6,9 @@
     "icon": "pickdate-icon.png",
     "license": "MIT",
     "publisher": "stuboydl",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "bugs": {
-        "url": "https://github.com/stuboydl/unibasic/issues"
+        "url": "https://github.com/stuboydl/pickdate/issues"
     },
     "engines": {
         "vscode": "^1.70.0"
