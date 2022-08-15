@@ -1,6 +1,6 @@
 # pickdate
 
-VSCode extension to return a [Pick](https://en.wikipedia.org/wiki/Pick_operating_system) (*and related flavours) internal date &amp; time to the clipboard.
+VSCode extension to return the current [Pick](https://en.wikipedia.org/wiki/Pick_operating_system) (*and related flavours) internal date &amp; time to the clipboard.
 
 - Pick Date is defined as days from 1967-12-31.
 - Pick Time is defined as seconds from 00:00 of the current day.
