@@ -4,10 +4,12 @@ VSCode extension to return the current [Pick](https://en.wikipedia.org/wiki/Pick
 
 Default key binding is Ctrl-P, Ctrl-P
 
+![Using Pickdate!](https://github.com/stuboydl/vscode-pickdate/raw/master/pickdate.gif)
+
 - Pick Date is defined as days from 1967-12-31.
 - Pick Time is defined as seconds from 00:00 of the current day.
 
-These values are ususally based on your local timezone, eg what your computer tells you the time is.
+These values are usually based on your local timezone, eg what your computer tells you the time is.
 
 Please Rate and Review if it's useful.
 
