@@ -6,7 +6,7 @@
     "icon": "pickdate-icon.png",
     "license": "MIT",
     "publisher": "stuboydl",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "bugs": {
         "url": "https://github.com/stuboydl/pickdate/issues"
     },
@@ -27,7 +27,7 @@
         }],
         "keybindings": [{
             "command": "pickdate.showdate",
-            "key": "ctrl+p,ctrl+p"
+            "key": "ctrl+alt+p"
         }]
     },
     "galleryBanner": {

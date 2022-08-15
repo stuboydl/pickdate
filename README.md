@@ -2,7 +2,7 @@
 
 VSCode extension to return the current [Pick](https://en.wikipedia.org/wiki/Pick_operating_system) (*and related flavours) internal date &amp; time to the clipboard.
 
-Default key binding is Ctrl-P, Ctrl-P
+Default key binding is Ctrl-Alt-P
 
 ![Using Pickdate!](https://github.com/stuboydl/pickdate/blob/main/pickdate.gif?raw=true)
 
