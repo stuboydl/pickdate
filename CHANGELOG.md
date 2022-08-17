@@ -1,6 +1,8 @@
 # Change Log
 
-All notable changes to the "pickdate" extension will be documented in this file.
+## v1.0.8
+
+- Cumulative improvements to code
 
 ## v1.0.5
 

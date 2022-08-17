@@ -20,11 +20,14 @@ export function activate(context: vscode.ExtensionContext) {
 		// SB 2022-08-03
 		const msPerDay = 86400000;
 		const pickEpoch = -63280800000; // Date('1967-12-31')[Symbol.toPrimitive]('number')
-		var localTime = new Date();
+		let localTime = new Date();
 
-		var pickMils = localTime[Symbol.toPrimitive]('number') - pickEpoch;
-		var pickDate = Math.floor(pickMils / msPerDay);
-		var pickTime = Math.floor((pickMils % msPerDay) / 1000);
+		let pickMils = localTime[Symbol.toPrimitive]('number') - pickEpoch;
+		let pickDate = Math.floor(pickMils / msPerDay);
+		let pickTime = Math.floor((pickMils % msPerDay) / 1000);
+
+      // let utcOffsetTime = new Date(localTime.setMinutes(localTime.getMinutes() - localTime.getTimezoneOffset()));
+      // console.log(`It\'s time! ${utcOffsetTime.toISOString().substring(0, 19)}.\nPick date: ${pickDate}, time: ${pickTime}`);
 
 		vscode.env.clipboard.writeText(`${pickDate} ${pickTime}`);
 		vscode.window.showInformationMessage(`Pick date: ${pickDate}, time: ${pickTime} copied to clipboard`);
