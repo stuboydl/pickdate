@@ -8,15 +8,13 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "pickdate" is now active!');
+	// console.log('Congratulations, your extension "pickdate" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('pickdate.showdate', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		// get pick date and time
+      // Get Pick date and time and display a message box to the user
 		// SB 2022-08-03
 		const msPerDay = 86400000;
 		const pickEpoch = -63280800000; // Date('1967-12-31')[Symbol.toPrimitive]('number')
