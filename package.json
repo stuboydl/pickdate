@@ -11,7 +11,7 @@
         "url": "https://github.com/stuboydl/pickdate/issues"
     },
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.70.0"
     },
     "categories": [
         "Other"

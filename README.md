@@ -13,7 +13,9 @@ Default key binding is Ctrl-Alt-P
 These values are usually based on your local PC timezone. eg 2022-08-12T22:54:04+10 (Australia/Sydney).
 >At this time the extension doesn't cater for setting a different timezone. eg, to match your *Pick* DB server.
 
-Please Rate and Review if it's useful.
+Click the Install button above to get started.
+
+Please Rate and Review this if it's useful. Thanks!
 
 ## TODO
 
