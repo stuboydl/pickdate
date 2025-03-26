@@ -1,4 +1,6 @@
-# pickdate
+# Pickdate!
+
+![Icon](https://github.com/stuboydl/pickdate/blob/main/pickdate-icon.png?raw=true)
 
 VSCode extension to return the current [Pick](https://en.wikipedia.org/wiki/Pick_operating_system) (and Pick related flavours) internal date & time to the clipboard.
 
@@ -14,6 +16,8 @@ These values are usually based on your local PC timezone. eg 2022-08-12T22:54:04
 >At this time the extension doesn't cater for setting a different timezone. eg, to match your *Pick* DB server.
 
 Click the Install button above to get started.
+
+Make sure Notifications are on for the extension.
 
 Please Rate and Review this if it's useful. Thanks!
 
